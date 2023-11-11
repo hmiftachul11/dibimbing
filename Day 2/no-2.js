@@ -1,20 +1,34 @@
 // Buat algoritma FlowChart dan Pseudecode  sederhana untuk menghitung jumlah huruf vokal dalam sebuah string.
 
-// Inisialisasi variabel "count" dengan 0
-let count = 0;
+// PSEUDOCODE
 
-// input string
-let inputString = `selamat pagi semuanya` // Mengonversi string ke huruf kecil agar tidak sensitif terhadap huruf besar/kecil
+// Dec vocal = a, i, u, e, o
+// Dec result = 
 
-// Loop melalui setiap karakter dalam string
-for (let i = 0; i < inputString.length; i++) {
-    let currentChar = inputString.charAt(i);
+// INPUT 'halo'
+// loop input
+//     loop vocal 
+//     input [i] equal with vocal [i]
+//     result = input [i]
+// OUTPUT length of result
 
-    // Periksa apakah karakter adalah vokal
-    if ("aeiou".indexOf(currentChar) !== -1) {
-        count++;
+// Coding Javascript
+function hitungVokal(string) {
+    string = string.toLowerCase();
+    
+    let jumlahVokal = 0;
+
+    for (let i = 0; i < string.length; i++) {
+        if (string[i] === 'a' || string[i] === 'e' || string[i] === 'i' || string[i] === 'o' || string[i] === 'u') {
+            jumlahVokal++;
+        }
     }
+
+    return jumlahVokal;
 }
 
-// Tampilkan jumlah huruf vokal
-console.log("Jumlah huruf vokal dalam string adalah: " + count);
+var kalimat = "programmer";
+var hasil = hitungVokal(kalimat);
+
+console.log("Jumlah huruf vokal " + hasil);
+

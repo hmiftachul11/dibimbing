@@ -1,5 +1,14 @@
 // Tugas:
 
+// Psudocode
+
+// DECLARE 
+//     alas: integer
+//     tinggi: integer
+// Algoritma:
+// INPUT luas = 0.5 (alas * tinggi)
+// Output luas segitiga
+
 // 1. Buat algoritma FlowChart dan Pseudecode untuk menghitung luas segitiga.
 
 // Langkah 1: Input nilai panjang alas segitiga
