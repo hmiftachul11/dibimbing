@@ -1,17 +1,38 @@
-// Buat algoritma FlowChart dan Pseudecode yang memeriksa apakah suatu tahun adalah tahun kabisat atau bukan.
+// Buat algoritma FlowChart dan Pseudecode  untuk mencari nilai maksimum dari tiga bilangan
 
-// Inisialisasi array tahun-tahun
-let years = [2020, 2023];
+// Pseudecode PROGRAM nilai_huruf
 
-// Loop melalui setiap tahun dalam array
-for (let i = 0; i < years.length; i++) {
-    let year = years[i];
+// DEKLARASI
+// var nilai : integer
+// var huruf : char
 
-    // Cek apakah tahun adalah tahun kabisat
-    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-        console.log(year + " adalah tahun kabisat.");
-    } else {
-        console.log(year + " bukan tahun kabisat.");
-    }
+// ALGORITMA:
+// INPUT nilai
+
+// IF (nilai < 60) THEN
+// 	huruf = "D"
+// ELSIF (nilai < 75) THEN
+// 	huruf = "C"
+// ELSIF (nilai < 85) THEN
+// 	huruf = "B"
+// ELSE
+// 	huruf = "A"
+// END IF
+
+// OUTPUT huruf
+
+// JS Code
+let a = 5
+let b = 2
+let c = 4;
+let maksimum;
+
+if (a >= b && a >= c) {
+    maksimum = a;
+} else if (b >= a && b >= c) {
+    maksimum = b;
+} else {
+    maksimum = c;
 }
 
+console.log("Nilai maksimum dari tiga bilangan adalah: " + maksimum);

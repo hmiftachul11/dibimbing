@@ -1,25 +1,40 @@
-// Tugas:
+// Buat algoritma FlowChart dan Pseudecode  sederhana untuk menghitung jumlah huruf vokal dalam sebuah string.
 
-// Psudocode
+// PSEUDOCODE
 
-// DECLARE 
-//     alas: integer
-//     tinggi: integer
-// Algoritma:
-// INPUT luas = 0.5 (alas * tinggi)
-// Output luas segitiga
+// dec vocal = a, i, u, e, o
+// dec result =
 
-// 1. Buat algoritma FlowChart dan Pseudecode untuk menghitung luas segitiga.
+// input 'makan'
+// Loop input WITH INDEX 1
+//      Loop vocal WITH INDEX j
+//          IF input [i] EQUAL WITH vocal[i]
+//              THEN result = input [i]
 
-// Langkah 1: Input nilai panjang alas segitiga
-let base = 5
+//  output LENGTH OF result
 
-// Langkah 2: Input tinggi segitiga
-let height = 7
+// Coding Javascript
+function hitungVokal(string) {
+  string = string.toLowerCase();
 
-// Langkah 3: Hitung luas segitiga
-const luas = 0.5 * base * height;
+  let jumlahVokal = 0;
 
-// Langkah 4: Tampilkan hasil kepada pengguna
-console.log("Luas segitiga adalah: " + luas);
+  for (let i = 0; i < string.length; i++) {
+    if (
+      string[i] === "a" ||
+      string[i] === "e" ||
+      string[i] === "i" ||
+      string[i] === "o" ||
+      string[i] === "u"
+    ) {
+      jumlahVokal++;
+    }
+  }
 
+  return jumlahVokal;
+}
+
+let kalimat = "programmer";
+let hasil = hitungVokal(kalimat);
+
+console.log("Jumlah huruf vokal " + hasil);

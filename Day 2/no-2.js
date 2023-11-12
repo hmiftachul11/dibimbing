@@ -1,34 +1,26 @@
-// Buat algoritma FlowChart dan Pseudecode  sederhana untuk menghitung jumlah huruf vokal dalam sebuah string.
+// Buat algoritma FlowChart dan Pseudecode  untuk menghitung faktorial suatu bilangan.
 
-// PSEUDOCODE
+// Pseudecode PROGRAM faktorial
 
-// Dec vocal = a, i, u, e, o
-// Dec result = 
+// DEKLARASI
+// var number : integer
+// var factorial : integer
 
-// INPUT 'halo'
-// loop input
-//     loop vocal 
-//     input [i] equal with vocal [i]
-//     result = input [i]
-// OUTPUT length of result
+// ALGORITMA:
+// INPUT number
+// factorial = 1
+// FOR i = 1 TO number
+// factorial = factorial * i
+// OUTPUT factorial
 
-// Coding Javascript
-function hitungVokal(string) {
-    string = string.toLowerCase();
-    
-    let jumlahVokal = 0;
+// AKHIR PROGRAM
 
-    for (let i = 0; i < string.length; i++) {
-        if (string[i] === 'a' || string[i] === 'e' || string[i] === 'i' || string[i] === 'o' || string[i] === 'u') {
-            jumlahVokal++;
-        }
-    }
+// JS Code
+let faktorial = 1;
+let n = 5;
 
-    return jumlahVokal;
+for (let i = 1; i <= n; i++) {
+  faktorial *= i;
 }
 
-var kalimat = "programmer";
-var hasil = hitungVokal(kalimat);
-
-console.log("Jumlah huruf vokal " + hasil);
-
+console.log("Faktorial dari " + n + " adalah: " + faktorial);
