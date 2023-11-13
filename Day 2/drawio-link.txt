@@ -1,3 +1,12 @@
-Soal no 1 => luas segitiga
-https://app.diagrams.net/?src=about#Hhmiftachul11%2Fdibimbing%2Fmain%2FUntitled%20Diagram.drawio
+Soal no 0 => luas segitiga
+https://app.diagrams.net/?src=about#Hhmiftachul11%2Fdibimbing%2Fmain%2FUntitled%20Diagram.drawio 
+
+
+Soal no 2 => Faktorial
+https://app.diagrams.net/?src=about#Hhmiftachul11%2Fdibimbing%2Fmain%2FFaktorial.drawio 
+
+Soal no 3 => Kabisat
+https://app.diagrams.net/?src=about#Hhmiftachul11%2Fdibimbing%2Fmain%2FTahun%20Kabisat.drawio 
+
+
 
