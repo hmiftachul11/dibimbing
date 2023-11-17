@@ -17,12 +17,3 @@
 // AKHIR PROGRAM
 
 
-// JS Code
-let faktorial = 1;
-let n = 5;
-
-for (let i = 1; i <= n; i++) {
-  faktorial *= i;
-}
-
-console.log("Faktorial dari " + n + " adalah: " + faktorial);
