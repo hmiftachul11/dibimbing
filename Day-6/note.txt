@@ -1,0 +1,2 @@
+Date
+Resources => momentjs.com => untuk melihat seperti apa untuk mengambil format hari, bulan, ataupun tahun dengan benar
