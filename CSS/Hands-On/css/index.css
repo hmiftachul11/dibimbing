@@ -1,0 +1,27 @@
+/* CSS/index.css */
+body {
+    background-color: aqua;
+    color: #444;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Add more styles for the index page as needed */
+  
