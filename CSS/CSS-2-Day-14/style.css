@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .social-media-icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+    background-image: radial-gradient(circle at 30% 107%, #006097, #004976 50%, #003860);
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    background-image: radial-gradient(circle at 30% 107%, #334e87, #1a294e 50%, #0d1a2d);
+  }
+  
+  .instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  }
+  

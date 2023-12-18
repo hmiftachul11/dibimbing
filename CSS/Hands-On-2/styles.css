@@ -1,0 +1,56 @@
+.container {
+  width: auto;
+  height: 500px;
+  border: 5px solid aqua;
+  margin: 30px;
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.linkedin,
+.facebook {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0274b2;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.facebook {
+  background-color: #3b5998;
+  border-radius: 100%;
+}
+
+.instagram {
+  width: 180px;
+  height: 180px;
+  border: 10px solid black;
+  border-radius: 50px;
+}
+
+.small {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  float: right;
+  margin: 20px;
+}
+
+.big {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  border-radius: 100%;
+  margin: 30px auto;
+}
