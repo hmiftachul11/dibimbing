@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -26,6 +28,23 @@ nav {
 }
 
 .nav-a:hover {
-    background-color: #01b29c;
-    border-radius: 12px;
+  background-color: #01b29c;
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  padding: 20px;
+  line-height: 123%;
+}
+
+.hero-left {
+  padding: 150px 20px 0 50px;
+}
+
+.hero-right {
+  padding: 100px 50px 0 50px;
 }
