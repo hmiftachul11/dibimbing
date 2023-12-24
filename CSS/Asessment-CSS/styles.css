@@ -5,8 +5,12 @@ body {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   background-color: #008673;
-  padding: 10px;
+  padding: 15px;
   justify-content: center;
   display: flex;
 }
@@ -47,4 +51,134 @@ nav {
 
 .hero-right {
   padding: 100px 50px 0 50px;
+}
+
+.image-container {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.image-hero {
+  height: 600px;
+  width: auto;
+}
+
+.fsize-x {
+  font-size: 42px;
+}
+
+.custom-button {
+  border: none;
+  border-radius: 8px;
+  background-color: #008673;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin: 10px 30px 5px 0px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #01b29c;
+}
+
+.outline-button {
+  border: 2px solid #008673;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #008673;
+  padding: 15px 30px;
+  margin: 10px 30px 5px 0px;
+  cursor: pointer;
+}
+
+.outline-button:hover {
+  background-color: #01b29c;
+  color: #ffffff;
+  border-color: #01b29c;
+}
+
+.section-second {
+  padding: 20px 50px 0 50px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.strong {
+  display: flex;
+  justify-content: center;
+}
+
+.section-left-about {
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 0;
+  padding-left: 50px;
+}
+
+.section-right-about {
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 0;
+  padding-left: 50px;
+}
+.image-about {
+  height: 500px;
+  width: auto;
+}
+
+.video-flex-container {
+  display: flex;
+  padding: 40px 0 80px 0;
+}
+
+.video-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 24px;
+  border-radius: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
