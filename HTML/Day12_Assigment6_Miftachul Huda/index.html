@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- UTF-8 meaning all the simple characters from the english language -->
+    <meta charset="UTF-8" />
+    <title>Introduction to HTML: HyperText Markup Language</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .search-input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+        }
+
+        .search-button {
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+
+        article {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article h2 {
+            color: #333;
+        }
+
+        article h3 {
+            color: #555;
+        }
+
+        article p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        article figure {
+            margin: 20px 0;
+        }
+
+        article table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        article th,
+        article td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .aside {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        aside {
+            width: 45%;
+        }
+
+        h2 em {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>📘 Dibimbing Articles</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="search-container">
+        <p>Search : <input type="text" class="search-input" placeholder="Search...">&nbsp;<button
+                class="search-button">Search</button></p>
+    </div>
+
+    <article>
+        <header>
+            <h2>Introduction to HTML: HyperText Markup Language</h2>
+            <!-- <img src="assets/images/post-image.jpg" alt="HTML code on a screen" width="500" height="200" /> -->
+            <video controls width="500">
+                <source src="assets/media/flower.webm" type="video/webm" />
+                <source src="assets/media/flower.mp4" type="video/mp4" />
+                Download the
+                <a href="assets/media/flower.webm">WEBM</a>
+                or
+                <a href="assets/media/flower.mp4">MP4</a>
+                video.
+            </video>
+            <p>
+                Posted by <strong>Fajar Saputro Juliantoro</strong> on Monday, January
+                21st 2027
+            </p>
+
+        </header>
+
+        <p>
+            All modern websites and web applications are built using three
+            <em>fundamental</em>
+            technologies: HTML, CSS and JavaScript. These are the languages of the
+            web.
+        </p>
+        <p>
+            In this post, let's focus on HTML. We will learn what HTML is all about,
+            and why you too should learn it.
+        </p>
+
+
+
+        <h3>What is HTML?</h3>
+        <p>
+            HTML stands for <em>HyperText
+                Markup Language</em>. It's a markup
+            language that web developers use to structure and describe the content
+            of a webpage (not a programming language).
+        </p>
+        <p>
+            HTML consists of elements that describe different types of content:
+            paragraphs, links, headings, images, video, etc. Web browsers understand
+            HTML and render HTML code as websites.
+        </p>
+        <p>In HTML, each element is made up of 3 parts:</p>
+        <ul>
+            <li>The opening tag</li>
+            <li>The closing tag</li>
+            <li>The actual element</li>
+        </ul>
+
+        <figure>
+            <figcaption>Listen to the Audio:</figcaption>
+            <audio controls src="assets/media/t-rex-roar.mp3">
+                <a href="assets/media/t-rex-roar.mp3">Download audio</a>
+            </audio>
+        </figure>
+        <p>Hopefully you learned something new here. See you next time!</p>
+        <p>
+            You can learn more at
+            <!-- There are 2 types of links, 1 link to our own website, 2 link that goes to another website -->
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>
+        </p>
+        <h2>Why should you learn HTML?</h2>
+        <p>
+            There are countless reasons for learning the fundamental language of the
+            web. Here are 5 of them:
+        </p>
+        <ol>
+            <li>To be able to use the fundamental web dev language</li>
+            <li>
+                To hand-craft beautiful websites instead of relying on tools like
+                Worpress or Wix
+            </li>
+            <li>To build web applications</li>
+            <li>To impress friends</li>
+            <li>To have fun 😃, or</li>
+        </ol>
+        <iframe src="https://www.youtube.com/embed/4V5zmxevaiM" style="border: 0;" width="550" height="300"></iframe>
+        <p>Hopefully you learned something new here. See you next time!</p>
+
+        <section>
+            <h2>HTML Elements Table</h2>
+            <table style="width: 600px; border-collapse: collapse; border: 1px solid #ddd;">
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Discription</th>
+                        <th>Example</th>
+                        <th>Attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Defines a paragraph</td>
+                        <td colspan="2">&lt;p&gt;This is a paragraph&lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Defines a paragraph</td>
+                        <td>&lt;a href="#"&gt;&lt;/a&gt;</td>
+                        <td>href, target, title</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/h1&gt; to &lt;/h6&gt;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form>
+                <!-- Text -->
+                <div>
+                    <label for="name">Name</label><br />
+                    <input type="text" id="name" name="name" value="Your name..." />
+                </div>
+                <!-- Email -->
+                <div>
+                    <label for="email">Email</label><br />
+                    <input type="email" name="email" id="email" placeholder="Your email..." />
+                </div>
+                <!-- Textarea -->
+                <div>
+                    <label for="message">Message</label><br />
+                    <textarea name="message" id="message" cols="50" rows="5" placeholder="message..."></textarea>
+                </div>
+                <!-- Select -->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label> Gender:
+                        <input type="radio" name="option" value="Male" />
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="Female" />
+                        Female
+                    </label>
+                    <div><label> Interest:
+                            <input type="checkbox" name="checkbox" value="Coding" />
+                            Coding
+                        </label>
+                        <label>
+                            <input type="checkbox" name="checkbox" value="Design" />
+                            Design
+                        </label>
+                        <label>
+                            <input type="checkbox" name="checkbox" value="Music" />
+                            Music
+                        </label>
+                    </div>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </article>
+
+    <!-- Challenge -->
+    <div class="aside">
+        <aside>
+            <h2><em>Dibimbing Articles</em></h2>
+            <ul>
+                <li>
+                    <img src="assets/images/related-post-1.jpg" alt="Related Post 1" width="75" height="75" />
+                    <a href="#">Create Stunning Ecommerce Website Design</a>
+                    <p>By Muhammad Rahmatullah</p>
+                </li>
+                <li>
+                    <img src="assets/images/related-post-2.jpg" alt="Related Post 2" width="75" height="75" />
+                    <a href="#">Top 10 Front-End principles you need to know</a>
+                    <p>By Hary Suryanto</p>
+                </li>
+                <li>
+                    <img src="assets/images/related-post-3.jpg" alt="Related Post 3" width="75" height="75" />
+                    <a href="#">How to planning your Front-End Development</a>
+                    <p>By Fajar Saputro Juliantoro</p>
+                </li>
+            </ul>
+        </aside>
+
+        <aside>
+            <h2>Related Post</h2>
+            <ul>
+                <li>
+                    <img src="assets/images/related-post-1.jpg" alt="Related Post 1" width="75" height="75" />
+                    <a href="#">Create Stunning Ecommerce Website Design</a>
+                    <p>By Muhammad Rahmatullah</p>
+                </li>
+                <li>
+                    <img src="assets/images/related-post-2.jpg" alt="Related Post 2" width="75" height="75" />
+                    <a href="#">Top 10 Front-End principles you need to know</a>
+                    <p>By Hary Suryanto</p>
+                </li>
+                <li>
+                    <img src="assets/images/related-post-3.jpg" alt="Related Post 3" width="75" height="75" />
+                    <a href="#">How to planning your Front-End Development</a>
+                    <p>By Fajar Saputro Juliantoro</p>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <div style="text-align: center;">
+            Copyright &copy; 2023 by Miftachul huda.
+        </div>
+    </footer>
+</body>
+
+</html>
