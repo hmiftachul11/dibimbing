@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="root"></main>
+    Miftachul Huda
+    <script>
+        const root = document.getElementById('root');
+
+        // fetch('https://fakestoreapi.com/products')
+        // .then((res) => res.json())
+        // .then((data) => {
+        //     console.log(data[0].title);
+        //     root.innerHTML = `<h1>${data[0].title}</h1>`
+        // })
+
+        async function getData() {
+            const response = await fetch('https://fakestoreapi.com/products');
+            const data = await response.json();
+            root.innerHTML = `
+            <h1>${data[0].title}</h1>
+            <h1>${data[1].title}</h1>
+            <h1>${data[2].title}</h1>
+            `;
+        }
+
+        getData()
+    </script>
+</body>
+
+</html>
